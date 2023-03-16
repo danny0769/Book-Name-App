@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/witcher"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Enter a book name,or part of a book name,or just some text from a book to find the full book title and who wrote the book?"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"
+        android:maxLines="4"
+        android:scrollbars="vertical"
+        android:gravity="top|left"
+        android:background="@color/white"
+        android:textColor="@color/black"
+
+        android:fontFamily="serif"
+        android:id="@+id/instructiontv_id"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:hint="e.g-Enter a book title"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/white"
+        android:id="@+id/booksinput_id"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:text="search books"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:id="@+id/button_id"
+        android:background="#D3D3D3"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:text="Title-"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/bookname_id"
+        android:textStyle="italic"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:text="Author-"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/author_id"
+        android:textStyle="italic"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:fontFamily="serif"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
